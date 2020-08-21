@@ -20,10 +20,17 @@ import "./style/main.scss";
 function main() {
   ReactDOM.render(
     <Provider store={createStoreWithMiddleware(reducers)}>
-      <BrowserRouter>
-        <App />
-    
-      </BrowserRouter>
+      <Router history={hitory}>
+        <Layout>
+          <Switch>
+            <Route path='/' exact component={App}/>
+            <Route path="/shop" exact component={Shop}/>
+            <Route path="/about" exact component={About}/>
+            <Route path="/contact" exact component={Contact}/>
+
+          </Switch>
+        </Layout>
+      </Router>
     </Provider>,
     document.querySelector(".app-wrapper")
   );
