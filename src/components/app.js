@@ -4,8 +4,9 @@ export default class App extends Component {
   render() {
     return (
       <div className='app'>
-        <h1>Devine Treasures by Teresa</h1>
-        <h2>React Redux Router</h2>
+        <div className='logo'>
+          <img src ='./assets/images/logos/logo1.png'/>
+         </div>
       </div>
     );
   }
