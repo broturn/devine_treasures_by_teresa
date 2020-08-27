@@ -9,8 +9,11 @@ export default class Shop extends Component {
       <div className="app">
        <Header />
         <Navbar/>
-        <h1>I am the shop page</h1>
 
+     
+      <div className="shop">
+        <h1>I am the shop page</h1>
+      </div>
       </div>
       
     );

@@ -10,8 +10,14 @@ export default class Contact extends Component {
       <div className='app'>
          <Header />
         <Navbar/>
-        <div>
-        <h1>I am the contact page</h1>
+        
+        <div className='contact'>
+          <div className='contact-name'>
+            Teresa Morrow
+          </div>
+          <div className='contact-email'>
+              teresamorrow1966@gmail.com
+          </div>
         </div>
       </div>
       

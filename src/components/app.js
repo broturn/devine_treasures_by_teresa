@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Header from './headernavbar/header';
-import Navbar from './headernavbar/navbar';
 
 import Home from './home';
 import Shop from './shop';
@@ -22,14 +20,7 @@ export default class App extends Component {
           </Switch>
         </Router>
       </div>
-      // <div className='app'>
-
-      //   {this.props.children}
-      //   <Header />
-      //   <Navbar/>
-        
-        
-      // </div>
+      
     );
   }
 }
