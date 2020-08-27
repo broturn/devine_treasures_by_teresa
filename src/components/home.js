@@ -3,18 +3,14 @@ import React, { Component } from 'react';
 import Header from './headernavbar/header';
 import Navbar from './headernavbar/navbar';
 
-export default class Contact extends Component {
+export default class Home extends Component {
   render() {
     return (
-      
       <div className='app'>
-         <Header />
+          <Header />
         <Navbar/>
-        <div>
-        <h1>I am the contact page</h1>
-        </div>
+        <h1>I am the Home page</h1>
       </div>
-      
     );
   }
 }

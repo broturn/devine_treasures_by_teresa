@@ -1,0 +1,22 @@
+.nav-link-wrapper  {
+    width: 280px;
+    font-size: 30px;
+   
+    a{
+        text-decoration: none;
+        color:  #A5D3CE;
+    }
+
+}
+
+.left-side{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+    padding-left: 900px;
+
+}
