@@ -7,24 +7,24 @@ export default class Shop extends Component {
   render() {
     return (
       <div className="app">
-       <Header />
-        <Navbar/>
-
-     
+     <Header />
+       <Navbar/>
       <div className="shop">
-        <div className="designs">
-          <img src ='./assets/images/designs/edit1.png'/>
+        <div className="top">
+          <div className="designs">
+            <img src ='./assets/images/designs/edit1.png'/>
+          </div>
+          <div className="designs">
+              <img src ='./assets/images/designs/welcome.jpg'/>
+          </div>
+          <div className="designs">
+              <img src ='./assets/images/designs/patriotic.jpg'/>
+          </div>
         </div>
-        <div className="designs">
-          <img src ='./assets/images/designs/welcome.jpg'/>
-        </div>
-        <div className="designs">
-          <img src ='./assets/images/designs/patriotic.jpg'/>
-        </div>
-     
-      </div>
-      </div>
+       </div>
       
-    );
+   
+    </div>
+     );   
   }
 }
