@@ -21,6 +21,17 @@ export default class Shop extends Component {
               <img src ='./assets/images/designs/patriotic.jpg'/>
           </div>
         </div>
+        <div className="bottom">
+        <div className="designs">
+            <img src ='./assets/images/designs/buck.jpg'/>
+          </div>
+          <div className="designs">
+              <img src ='./assets/images/designs/doe.jpg'/>
+          </div>
+          <div className="designs">
+              <img src ='./assets/images/designs/sunflower.jpg'/>
+          </div>
+        </div>
        </div>
       
    
