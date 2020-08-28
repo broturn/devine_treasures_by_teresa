@@ -9,7 +9,9 @@ export default class Home extends Component {
       <div className='app'>
           <Header />
         <Navbar/>
-        <h1>I am the Home page</h1>
+        <div className='home'>
+            Welcome to Devine Treasure by me, Mrs. Teresa Morrow. Everything here is custom made by myself.
+        </div>
       </div>
     );
   }
