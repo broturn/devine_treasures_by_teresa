@@ -1,10 +1,16 @@
 .nav-link-wrapper  {
     width: 280px;
     font-size: 30px;
+    // display: flex;
+    // flex-direction: row;
    
     a{
         text-decoration: none;
         color:  #A5D3CE;
+
+        &:hover{
+            color:#F6FCFC;
+        }
     }
 
 }
