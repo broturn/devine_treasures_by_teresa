@@ -1,12 +1,13 @@
 .nav-link-wrapper  {
-    width: 280px;
+    width: 100%;
     font-size: 30px;
-    // display: flex;
-    // flex-direction: row;
-   
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
     a{
         text-decoration: none;
         color:  #A5D3CE;
+        padding: 15px;
 
         &:hover{
             color:#F6FCFC;
@@ -16,13 +17,39 @@
 }
 
 .left-side{
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
+    width: initial;
+    white-space: nowrap;
+    float: left;
     padding-top: 50px;
+    padding-left: 120px;
+    z-index: inherit;
+    
 }
 .right-side{
-    display: flex;
-    flex-direction: row;
-    padding-left: 900px;
+    display: inline-block;
+    width: initial;
+    float: right;
+    padding-top: 50px;
+    padding-right: 252px;
+    white-space: nowrap;
+    
 
+}
+.logo img {
+    width: 249px;
+    height: 190px;
+    white-space: nowrap;
+    // padding-left: 660px;
+    display: inline-block;
+    width: initial;
+    // vertical-align: center;
+position: absolute;
+left: 40%;
+top: 15%;
+transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-o-transform: translateY(-50%);
 }

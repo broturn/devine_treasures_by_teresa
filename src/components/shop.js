@@ -10,7 +10,7 @@ export default class Shop extends Component {
      <Header />
        <Navbar/>
       <div className="shop">
-        <div className='front'>
+        <div className='shop-item__front'>
           <div className="top">
             <div className="designs">
               <img src ='./assets/images/designs/secondpass.jpg'/>
@@ -34,9 +34,12 @@ export default class Shop extends Component {
             </div>
           </div>
         </div>
-        <div className='back'>
-          <h1>Hi I am the back</h1>
+        <div className='shop-item__back'>
+          I am the back
         </div>
+        {/* <div className="shop-item__title">
+          Test title
+        </div> */}
        </div>
    
     </div>

@@ -1,4 +1,30 @@
 .shop{
+    display: grid;
+    // grid-template-rows: 1/-1;
+    // grid-template-columns: 1/-1;
+    // perspective: 150rem;
+    // -moz-perspective: 150rem;
+
+    & > * {
+        grid-row: 1/-1;
+        grid-column: 1/-1;
+    }
+    &__front,
+    &__back {
+        backface-visibility: hidden;
+        transition: all .3s ease;
+    }
+
+    &__back {
+        transform: rotateY(-180deg);
+    }
+    &:hover &__front {
+        transform: rotateY(180deg);
+    }
+    &:hover &__back{
+        transform: rotateY(0deg);
+    }
+
     .top{
     display: grid;
     grid-template-rows: 1fr;
@@ -17,5 +43,80 @@
         width: 380px;
         height: 437px;
 }
+.shop-item__front {
+    &__title {
+        // color: #333333;
+        font-size: 18px;
+        
+    }
+}
+// .shop-item__back {
+//     width: 380px;
+//     height: 237px;
+//     // padding-top: 250px;
+//     // padding-bottom: 100px;
+//     background-color: black;
+//     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
 
+    // display: grid;
+    // grid-template-rows: 15px [title-s] 30px [title-e description-s] 1fr [description-e price-s] 25px [price-e footer-s] 65px [footer-e] 15px;
+    // grid-template-columns: 15px [s] 1fr [e] 15px;
+    // justify-items: start;
+    // grid-row-gap: 7px;
+
+    // & > * {
+    //     grid-column: s/e;
+    // }
+
+    // &__title {
+    //     padding-bottom: 200px;
+        // grid-row: title-s/title-e;
+
+    //     color: #00CB79;
+    //     // font-family: "Encode Sans Condensed";
+    //     font-size: 16px;
+    //     font-weight: 500;
+    // }
+
+//     &__description {
+//         grid-row: description-s/description-e;
+
+//         font-size: 13px;
+//         color: #333333;
+//     }
+
+//     &__price {
+//         grid-row: price-s/price-e;
+//     }
+
+//     &__quantity {
+//         grid-row: footer-s/footer-e;
+//     }
+//     &__add-to-cart {
+//         justify-self: end;
+//         grid-row: footer-s/footer-e;
+
+//         // height: 40px;
+//         // width: 97px;
+//         border-radius: 20px;
+//         color: white;
+//         background-color: #00CB79;
+//         font-weight: 600;
+//         font-size: 12px;
+
+//         display: grid;
+//         justify-items: center;
+//         align-items: center;
+
+//         transition: all .3s ease;
+
+//         &:hover {
+//             transform: scale(0.97);
+//         }
+
+//         &:active {
+//             transform: scale(0.95);
+        // }
+    // }
+// }
 }
