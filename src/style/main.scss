@@ -1,12 +1,15 @@
-html{
-    background-color: #504c65;
-    color: #A5D3CE;
-    font-family: 'Raleway', sans-serif;
-}
-
+@import 'colors';
 @import 'homepage'; 
 @import 'navbar';
 @import 'contact';
 @import 'about';
 @import 'home';
 @import 'shop';
+
+html{
+    background-color:$purple;
+    color: $mint-green;
+    font-family: 'Raleway', sans-serif;
+}
+
+
