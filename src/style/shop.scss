@@ -1,21 +1,21 @@
 .shop {
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: transparent;
   width: 380px;
   height: 437px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
+  margin-top: 150px;
+  // margin-right: 45px;
   img {
     width: 380px;
     height: 437px;
-    margin-top: 150px;
-    margin-right: 45px;
   }
 }
 .top > .shop {
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   perspective: 1000px;
   background-color: transparent;
@@ -23,10 +23,8 @@
 
 .shop-item__front {
   position: relative;
-  width: 100%;
-  height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 0.8s ease-in-out;
   transform-style: preserve-3d;
 }
 
@@ -34,7 +32,7 @@
   transform: rotateY(180deg);
 }
 .shop:hover .shop-item__back {
-  transform: rotateY(0deg);
+  transform: rotateX(0deg);
 }
 .shop-item__front,
 .shop-item__back {
@@ -50,12 +48,10 @@
 .shop-item__back {
   background-color: dodgerblue;
   color: white;
-  transform: rotateY(-180deg);
+  transform: rotateX(-180deg);
   width: 380px;
   height: 437px;
-  margin-top: 150px;
-  margin-right: 45px;
-  transition: transform 0.8s;
+  transition: transform 0.8s ease-in-out;
   transform-style: preserve-3d;
   display: grid;
   grid-template-rows: 15px [title-s] 30px [title-e description-s] 1fr [description-e price-s] 25px [price-e footer-s] 65px [footer-e] 15px;
