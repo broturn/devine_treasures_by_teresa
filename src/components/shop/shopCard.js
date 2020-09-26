@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-
+// import ShopCart from './shopCart';
 
 
 const ShopCard = (props) => {
@@ -10,8 +10,6 @@ const ShopCard = (props) => {
     }, [])
 
     return (
-        // <div className="wrapper">
-            
         <div className="shop">
           <div className="shop-item__front">
             <div className="top">
@@ -29,7 +27,6 @@ const ShopCard = (props) => {
             <div className="shop-item__back__add-to-cart">Add to Cart</div>
           </div>
         </div>
-        // </div>
     );
 };
 

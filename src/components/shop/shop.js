@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
-import Header from "./headernavbar/header";
-import Navbar from "./headernavbar/navbar";
+import Header from "../headernavbar/header";
+import Navbar from "../headernavbar/navbar";
 import ShopCard from "./shopCard"
+
 
 // import shopProducts from "./shopItems";
 
