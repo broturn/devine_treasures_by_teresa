@@ -42,7 +42,7 @@ return (
     </div>
     <div className='cart'>
       <NavLink exact to='/Cart'>
-       Cart
+      <i class="fas fa-shopping-cart"></i>
       </NavLink>
     </div>
   </div>

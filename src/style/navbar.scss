@@ -53,3 +53,15 @@ transform: translateY(-50%);
 -webkit-transform: translateY(-50%);
 -o-transform: translateY(-50%);
 }
+
+.cart a{
+    text-decoration: none;
+    font-size: 40px;
+    position: absolute;
+    left: 92%;
+    top: 1%;
+    color: $mint-green;
+&:hover{
+    color: $white;
+}
+}
