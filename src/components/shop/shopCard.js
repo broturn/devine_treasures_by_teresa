@@ -1,8 +1,5 @@
 import React, { useEffect } from 'react';
 
-// import ShopCart from './shopCart';
-
-
 const ShopCard = (props) => {
 
     useEffect( () => {
