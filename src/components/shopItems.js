@@ -1,9 +1,3 @@
-// import { SET_SHOP_PRODUCTS } from "../actions/types";
-// export function shopProducts() {
-//   return {
-//     type: SET_SHOP_PRODUCTS,
-//     payload: [
-
 import React from "react"
 
 const shopProducts =

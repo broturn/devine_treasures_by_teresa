@@ -40,6 +40,11 @@ return (
         About
       </NavLink>
     </div>
+    <div className='cart'>
+      <NavLink exact to='/Cart'>
+       Cart
+      </NavLink>
+    </div>
   </div>
   </div>
 )
