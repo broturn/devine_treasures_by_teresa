@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import {
   updateCartQuantity,
   removeFromCart,
-} from "../../store/actions/cartActions";
+} from "../../actions/cartActions";
 
 class Item extends Component {
   constructor(props) {

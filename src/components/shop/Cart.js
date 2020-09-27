@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Item from './Item';
 import { connect } from 'react-redux';
+
+import Header from '../headernavbar/header';
+import Navbar from '../headernavbar/navbar';
  
 class Cart extends Component
 {
@@ -69,7 +72,7 @@ class Cart extends Component
 const mapStateToProps = (state) => {
  
   return {
-      cart: state.cart.cart
+      cart: state.cart
   }
 };
  

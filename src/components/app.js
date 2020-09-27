@@ -6,6 +6,7 @@ import Home from './home';
 import Shop from './shop/Shop';
 import About from './about';
 import Contact from './contact';
+import Cart from './shop/Cart';
 
 export default class App extends Component {
   render() {
@@ -17,6 +18,7 @@ export default class App extends Component {
             <Route path="/shop" component={Shop}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/Cart" component={Cart}/>
           </Switch>
         </Router>
       </div>
