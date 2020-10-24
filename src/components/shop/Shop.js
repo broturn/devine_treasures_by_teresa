@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import Header from "../headernavbar/header";
 import Navbar from "../headernavbar/navbar";
-import ShopCard from "./shopCard"
+import ShopCard from "./shopCard";
 
 
 // import shopProducts from "./shopItems";
@@ -25,39 +25,39 @@ export default class Shop extends Component {
             _id: 0,
             title: "Patriotic Doves",
             description: "The stars and strips sparkle.",
-            price: 50,
+            price: 80,
             imageUrl: <img src="./assets/images/designs/secondpass.jpg" />,
           },
           {
             _id: 1,
             title: "Welcome",
             description: "A wreath sending a warm and welcoming message",
-            price: 50,
+            price: 80,
             imageUrl: <img src="./assets/images/designs/welcome.jpg" />,
           },
           {
             _id: 2,
             title: "God Bless the USA",
             description: "Show your patriotism with this wreath",
-            price: 50,
+            price: 80,
             imageUrl: <img src="./assets/images/designs/patriotic.jpg" />,
           },
           {
             title: "Test",
             description: "Test",
-            price: 50,
+            price: 80,
             imageUrl: <img src="./assets/images/designs/buck.jpg" />,
           },
           {
             title: "Test",
             description: "Test",
-            price: 50,
+            price: 80,
             imageUrl: <img src="./assets/images/designs/doe.jpg" />,
           },
           {
             title: "Test",
             description: "Test",
-            price: 50,
+            price: 80,
             imageUrl: <img src="./assets/images/designs/sunflower.jpg" />,
           }
         ]
