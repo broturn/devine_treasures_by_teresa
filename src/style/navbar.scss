@@ -65,3 +65,15 @@ transform: translateY(-50%);
     color: $white;
 }
 }
+
+.login a{
+    text-decoration: none;
+    font: 40px;
+    position: absolute;
+    left: 89%;
+    top: 1%;
+    color: $mint-green;
+    &:hover{
+        color: $white;
+    }
+}

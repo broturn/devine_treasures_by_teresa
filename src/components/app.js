@@ -6,6 +6,7 @@ import Shop from './shop/Shop';
 import About from './about';
 import Contact from './contact';
 import Cart from './shop/Cart';
+import Login from './Login';
 
 export default class App extends Component {
   render() {
@@ -18,6 +19,7 @@ export default class App extends Component {
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/Cart" component={Cart}/>
+            <Route path="/Login" component={Login}/>
           </Switch>
         </Router>
       </div>

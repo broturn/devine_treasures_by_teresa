@@ -1,0 +1,29 @@
+.login {
+    padding-top:100px;
+    font-size: 36px;
+//     display: flex;
+//     justify-content: center;
+//   align-items: center;
+}
+
+button {
+    justify-self: end;
+    grid-row: footer-s/footer-e;
+    height: 40px;
+    width: 97px;
+    border-radius: 20px;
+    color: white;
+    background-color: $mint-green;
+    font-weight: 600;
+    font-size: 12px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+form {
+    padding-left: 650px;
+    // padding-bottom: ;
+}
+

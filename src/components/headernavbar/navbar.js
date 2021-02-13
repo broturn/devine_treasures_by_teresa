@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import { NavLink } from "react-router-dom";
 
+
 const Navbar = props => {
   const dynamicLink = (route, linkText) => {
     return (
@@ -44,6 +45,12 @@ return (
       <NavLink exact to='/Cart'>
       <i class="fas fa-shopping-cart"></i>
       </NavLink>
+      </div>
+      <div className="login">
+      <NavLink exact to='/Login'>
+      <i class="fas fa-sign-in-alt"></i>
+      </NavLink>
+      
     </div>
   </div>
   </div>
