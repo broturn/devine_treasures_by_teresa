@@ -1,25 +1,17 @@
-// import React, { Component } from 'react';
-// import Item from './Item';
-// import { connect } from 'react-redux';
-// import { useStateValue } from "../../reducers/StateProvider"
+import React from 'react'
+import Header from '../headernavbar/header';
+import Navbar from '../headernavbar/navbar';
 
-// import Header from '../headernavbar/header';
-// import Navbar from '../headernavbar/navbar';
+function Cart() {
+    return (
+        <div className='app'>
+        <Header />
+        <Navbar/>
+        <div className="cart">
+            I am the cart
+        </div>
+        </div>
+    )
+}
 
-//   function Checkout() {
-//     const [{ basket, user }, dispatch] = useStateValue();
-//     return (
-//       <div className='app'>
-//           <Header />
-//           <Navbar/>
-//           <div className='Cart'>
-//           </div>
-//         </div>
-//     )
-//   }
-//       // this.props.cart.map(item => total += item.product.price * item.quantity);
-      
-        
-
-    
-// export default Cart;
+export default Cart
