@@ -8,7 +8,7 @@ function Cart() {
         <Header />
         <Navbar/>
         <div className="cart">
-            I am the cart
+           <h2>Your shopping cart</h2>
         </div>
         </div>
     )

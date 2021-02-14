@@ -1,6 +1,6 @@
 
 export const initialState = {
-  basket: [],
+  cart: [],
   user: null,
 };
 
@@ -12,28 +12,28 @@ const reducer = (state, action) => {
     case "ADD_TO_CART":
       return {
         ...state,
-        basket: [...state.basket, action.item],
+        cart: [...state.cart, action.item],
       };
       case "EMPTY_CART":
         return {
           ...state,
-          basket: []
+          cart: []
         }
       case "REMOVE_FROM_CART":
-        const index = state.basket.findIndex(
-        (basketItem) => state.basket.id === action.id
+        const index = state.cart.findIndex(
+        (cartItem) => state.cart.id === action.id
         ) 
-        let newBasket = [...state.basket];
+        let newCart = [...state.cart];
         if (index >= 0) {
-          newBasket.splice(index, 1);
+          newCart.splice(index, 1);
         }else {
           console.warn(
-            `Cant remove product (id: ${action.id}) as its not in the basket!`
+            `Cant remove product (id: ${action.id}) as its not in the cart!`
           )
         }
         return {
           ...state,
-          basket: newBasket
+          cart: newCart
         }
   }
 }
